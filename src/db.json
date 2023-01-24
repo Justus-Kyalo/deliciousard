@@ -1,0 +1,396 @@
+{
+  "products": [
+   {
+      "id": 1,
+      "category": "fruit",
+      "productName": "Mango",
+      "image": "https://media.istockphoto.com/id/168370138/photo/mango.jpg?b=1&s=170667a&w=0&k=20&c=xraujw-bJkOOBKXcqtNaU65kDaBK2szprAGynpRhSIg=",
+      "unitPrice": "10",
+      "unitsInStock": 53
+    },
+    {
+      "id": 2,
+      "category": "Grain",
+      "productName": "Quinoa",
+      "image": "https://images.unsplash.com/photo-1586201375799-47cd24c3f595?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "unitPrice": 700,
+      "unitsInStock": 17
+    },
+    {
+      "id": 4,
+      "category": "Grain",
+      "productName": "Oats",
+      "image": "https://media.istockphoto.com/id/966513720/photo/the-concept-of-healthy-eating-whole-grains-of-oats-and-oat-spikelets.jpg?b=1&s=170667a&w=0&k=20&c=0KB3Sq1n2_cNNlj7fSSUHnxz_Lof4j1JnaW-GlQ0hYg=",
+      "unitPrice": 900,
+      "unitsInStock": 53
+    },
+    {
+      "id": 5,
+      "category": "Fruit",
+      "productName": "Watermelon",
+      "image": "https://images.unsplash.com/photo-1621961048737-a9993789e1ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+      "unitPrice": 700,
+      "unitsInStock": 100
+    },
+    {
+      "id": 6,
+       "category": "Vegetable",
+      "productName": "Onion",
+      "image": "https://media.istockphoto.com/id/155360646/photo/onions-background.jpg?b=1&s=170667a&w=0&k=20&c=rJ_--HIwo4817sytN8lJUG69Qozls_ZArfAXagB8EE0=",
+      "unitPrice": 200,
+      "unitsInStock": 120
+    },
+    {
+      "id": 7,
+      "category": "Fruit",
+      "productName": "Pawpaw",
+      "image": "https://media.istockphoto.com/id/466740633/photo/green-papaya.jpg?b=1&s=170667a&w=0&k=20&c=UCMEOZ5_hwUkpZTOpMMBI-xcN05jIdrFAt5nWkw_5ZA=",
+      "unitPrice": 500,
+      "unitsInStock": 15
+    },
+    {
+      "id": 8,
+      "category": "Vegetable",
+      "productName": "broccoli",
+      "image": "https://media.istockphoto.com/id/147060621/photo/broccoli.jpg?b=1&s=170667a&w=0&k=20&c=JGlQQJdB59MGpVbBHgg_9ejZh5PQuCNsr97vgrDhiEs=",
+      "unitPrice": 40,
+      "unitsInStock": 100
+    },
+    {
+      "id": 9,
+      "category": "Fruit",
+      "productName": "Orange",
+      "image": "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8b3JhbmdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 20,
+      "unitsInStock": 29
+    },
+    {
+      "id": 10,
+      "category": "Fruit",
+      "productName": "Apple",
+      "image": "https://media.istockphoto.com/id/1365099869/photo/six-apples.jpg?b=1&s=170667a&w=0&k=20&c=ZJI2fLOE6a0aCU-4BBg9qDYht3wH29GD3V_ThqpLfl8=",
+      "unitPrice": 30,
+      "unitsInStock": 31
+    },
+    {
+      "id": 11,
+      "category": "Grain",
+      "productName": "Lentiles",
+      "image": "https://media.istockphoto.com/id/1291193698/photo/red-lentils-in-a-bowl-shot-from-above-copy-space.jpg?b=1&s=170667a&w=0&k=20&c=WYfU6AaEbz7u56VZA_e2IrXGAbCfgohOJhYqz9mdQoI=",
+      "unitPrice": 150,
+      "unitsInStock": 22
+    },
+    {
+      "id": 12,
+      "category": "Fruit",
+      "productName": "Banana",
+      "image": "https://media.istockphoto.com/id/172876004/photo/banana-wallpaper.jpg?b=1&s=170667a&w=0&k=20&c=-J17oGmS_lbYZmEPuoJQTV-2S_PoGIWt-tvYw49yxN4=",
+      "unitPrice": 10,
+      "unitsInStock": 86
+    },
+    {
+      "id": 13,
+      "category": "Grain",
+      "productName": "Green Grams",
+      "image": "https://media.istockphoto.com/id/1414277073/photo/raw-grams.jpg?b=1&s=170667a&w=0&k=20&c=xFvxZlQF1GJLxCFf9t5tdiA_FuwYGL98WZGWBMV9RIo=",
+      "unitPrice": 150,
+      "unitsInStock": 24
+    },
+    {
+      "id": 14,
+      "category": "Grain",
+      "productName": "Barley",
+      "image": "https://media.istockphoto.com/id/103994698/photo/pile-of-barley.jpg?b=1&s=170667a&w=0&k=20&c=T3_dX2-XZA4agn6ZarTzqxSq4-Pyb2_a0pUS4lM6kqk=",
+      "unitPrice": 2500,
+      "unitsInStock": 35
+    },
+    {
+      "id": 15,
+      "category": "Vegetable",
+      "productName": "Kales",
+      "image": "https://media.istockphoto.com/id/1347540778/photo/leaves-of-different-sizes-and-colors-close-up.jpg?b=1&s=170667a&w=0&k=20&c=-dto-2w3V3v_CZZuErUSHwAHr2QS_CEVq2VN3jm341k=",
+      "unitPrice": 15.5,
+      "unitsInStock": 39
+    },
+    {
+      "id": 16,
+      "category": "Grain",
+      "productName": "Beans",
+      "image": "https://images.unsplash.com/photo-1564894809611-1742fc40ed80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 17.45,
+      "unitsInStock": 29
+    },
+    {
+      "id": 17,
+      "category": "Grain",
+      "productName": "Maize",
+      "image": "https://images.unsplash.com/photo-1623066798929-946425dbe1b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "unitPrice": 2500,
+      "unitsInStock": 4
+    },
+    {
+      "id": 18,
+      "category": "Fruit",
+      "productName": "Guava",
+      "image": "https://images.unsplash.com/photo-1629367308496-a2496ba22f88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3VhdmF8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 10,
+      "unitsInStock": 42
+    },
+    {
+      "id": 19,
+      "category": "Fruit",
+      "productName": "Avocado",
+      "image": "https://media.istockphoto.com/id/1332477907/photo/fresh-organic-avocado-at-farmers-market-healthy-food.jpg?b=1&s=170667a&w=0&k=20&c=CdE2hhMNdX1OqYe6nAyBNK0-e2OVUR0F1Lo-a-LiuNE=",
+      "unitPrice": 20,
+      "unitsInStock": 25
+    },
+    {
+      "id": 20,
+      "category": "Vegetable",
+      "productName": "Coriander",
+      "image": "https://media.istockphoto.com/id/1399361252/photo/green-coriander-bunch-isolated-on-white.jpg?b=1&s=170667a&w=0&k=20&c=MKWUlFsXhMNjh5fX-VP1XappaBLxRXZXp7zIDf1X_cQ=",
+      "unitPrice": 20,
+      "unitsInStock": 40
+    },
+    {
+      "id": 21,
+      "category": "Grain",
+      "productName": "Brown Rice",
+      "image": "https://images.unsplash.com/photo-1613728913341-8f29b02b8253?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnJvd24lMjByaWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 200,
+      "unitsInStock": 3
+    },
+    {
+      "id": 22,
+      "category": "Grain",
+      "productName": "White Rice",
+      "image": "https://media.istockphoto.com/id/186835225/photo/rice-in-a-wooden-bowl.jpg?b=1&s=170667a&w=0&k=20&c=VSkHmH7JqOBeQ_X_HTY-OOA9BXCP0ok6FITIxVdVcLQ=",
+      "unitPrice": 150,
+      "unitsInStock": 104
+    },
+    {
+      "id": 23,
+      "category": "Fruit",
+      "productName": "Blackberry",
+      "image": "https://media.istockphoto.com/id/93293039/photo/a-group-of-ripe-blackberries-with-leaves.jpg?b=1&s=170667a&w=0&k=20&c=FdQEI-1JfRHXdAT5Fo4tyC-GJre7JMyH9bQcZdujWB4=",
+      "unitPrice": 10,
+      "unitsInStock": 61
+    },
+    {
+      "id": 24,
+      "category": "Vegetable",
+      "productName": "White Cabbage",
+      "image": "https://media.istockphoto.com/id/1344644460/photo/white-cabbage-plants-on-a-field.jpg?b=1&s=170667a&w=0&k=20&c=9Il1dWSicAb1mRYhsFqgAEoqSD70EqCJTnUb5voUQqo=",
+      "unitPrice": 250,
+      "unitsInStock": 20
+    },
+    {
+      "id": 25,
+      "category": "Vegetable",
+      "productName": "Purple Cabbage",
+      "image": "https://media.istockphoto.com/id/1341304059/photo/food-background-red-cabbage.jpg?b=1&s=170667a&w=0&k=20&c=_gpnQy9b9RI2Sol3lC-zgkyeb5VUZVU1X_TPDYQmsoU=",
+      "unitPrice": 500,
+      "unitsInStock": 76
+    },
+    {
+      "id": 26,
+      "category": "Vegetable",
+      "productName": "Tomato",
+      "image": "https://media.istockphoto.com/id/488113940/photo/pile-of-tomatoes.jpg?b=1&s=170667a&w=0&k=20&c=jBE9D_71jG_j4T0ipEpwIYvlT42Iuoa-ilCz0jTP7Cs=",
+      "unitPrice": 20,
+      "unitsInStock": 15
+    },
+    {
+      "id": 27,
+      "category": "Vegetable",
+      "productName": "Spinach",
+      "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3BpbmFjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 50,
+      "unitsInStock": 49
+    },
+    {
+      "id": 28,
+      "category": "Fruit",
+      "productName": "Potato",
+      "image": "https://media.istockphoto.com/id/1300367338/photo/potatoes.jpg?b=1&s=170667a&w=0&k=20&c=bPM-hhemQ1nO3EbVoFFnpvU5tAqb8kMPfbvBS-lUEy4=",
+      "unitPrice": 200,
+      "unitsInStock": 26
+    },
+    {
+      "id": 29,
+      "category": "Vegetable",
+      "productName": "Carrot",
+      "image": "https://media.istockphoto.com/id/185011004/photo/organic-carrots.jpg?b=1&s=170667a&w=0&k=20&c=xbu6cjCxufn9cL2lTii5fu9-poWfxr6yo3FvOh2Lg8A=",
+      "unitPrice": 300,
+      "unitsInStock": 200
+    },
+    {
+      "id": 30,
+      "category": "Vegetable",
+      "productName": "Zuchini",
+      "image": "https://media.istockphoto.com/id/148293312/photo/zucchini.jpg?b=1&s=170667a&w=0&k=20&c=zosGhK14SHy8wEElF1z7-mJxWh0Hw5_t6ihyHlVoqQI=",
+      "unitPrice": 200,
+      "unitsInStock": 10
+    },
+    {
+      "id": 31,
+      "category": "Fruit",
+      "productName": "Blueberry",
+      "image": "https://media.istockphoto.com/id/1349483941/photo/fresh-blueberries.jpg?b=1&s=170667a&w=0&k=20&c=QR6WCBn3MSPj2J0vtUzsUhxUZ1rLbVQk5SzJ_A3L9bU=",
+      "unitPrice": 200,
+      "unitsInStock": 0
+    },
+    {
+      "id": 32,
+      "category": "Fruit",
+      "productName": "Tangerine",
+      "image": "https://media.istockphoto.com/id/182384581/photo/tangerine-background.jpg?b=1&s=170667a&w=0&k=20&c=gRFQyxZkAeM5661yMiPOdfbtwitbcZNLurrx43AfQNg=",
+      "unitPrice": 25,
+      "unitsInStock": 9
+    },
+    {
+      "id": 33,
+      "category": "Grain",
+      "productName": "Rye",
+      "image": "https://media.istockphoto.com/id/171553200/photo/wheat-berries-background.jpg?b=1&s=170667a&w=0&k=20&c=xsS4qG_hmuG1ClhazbyM0Kjg4LUQY0CFgYlpfJHdNUE=",
+      "unitPrice": 1000,
+      "unitsInStock": 112
+    },
+    {
+      "id": 34,
+      "category": "Grain",
+      "productName": "Bulgar",
+      "image": "https://media.istockphoto.com/id/155428108/photo/bulgar-wheat.jpg?b=1&s=170667a&w=0&k=20&c=u7yZsY9uO1XX7BZNrImULDOkK8jPhyvR1G8nSpCvMc4=",
+      "unitPrice": 2500,
+      "unitsInStock": 111
+    },
+    {
+      "id": 35,
+      "category": "Grain",
+      "productName": "Wheat",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2hlYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 200,
+      "unitsInStock": 20
+    },
+    {
+      "id": 36,
+      "category": "Grain",
+      "productName": "Sesame Seeds",
+      "image": "https://images.unsplash.com/photo-1613500788522-89c4d55bdd0e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c2VzYW1lJTIwc2VlZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 900,
+      "unitsInStock": 112
+    },
+    {
+      "id": 37,
+      "category": "vegetable",
+      "productName": "Ratabaga",
+      "image": "https://media.istockphoto.com/id/1311770993/photo/yellow-turnips-vegetables-piled-on-the-market-stall.jpg?b=1&s=170667a&w=0&k=20&c=R3UJIX_yp6EQk5dJx-ew5RPXM5DOFmw5lvujoydH9Hg=",
+      "unitPrice": 250,
+      "unitsInStock": 11
+    },
+    {
+      "id": 38,
+      "category": "vegetable",
+      "productName": "Sugarbeet",
+      "image": "https://media.istockphoto.com/id/115817629/photo/sugarbeet-vegetable-texture.jpg?b=1&s=170667a&w=0&k=20&c=mJviGfk9Kbe2yDW63ytlVkdT3PIqdaLRliVwQWW3wHU=",
+      "unitPrice": 950,
+      "unitsInStock": 17
+    },
+    {
+      "id": 39,
+      "category": "vegetable",
+      "productName": "Celeraic",
+      "image": "https://media.istockphoto.com/id/157522249/photo/celery.jpg?b=1&s=170667a&w=0&k=20&c=dQQwuEmiH8K8ZUwpLvUTfWFO6TWS1aTEGleA-4IyS3Q=",
+      "unitPrice": 450,
+      "unitsInStock": 69
+    },
+    {
+      "id": 40,
+      "category": "Grain",
+      "productName": "Millet",
+      "image": "https://media.istockphoto.com/id/1387461297/photo/finger-millet-spread-after-threshing-it-is-also-known-as-ragi-kodo-in-various-regions-its.jpg?b=1&s=170667a&w=0&k=20&c=PfGHxaKSDfGXFc72wqFBE8YgnqKz6Sal1IxH_QqeOCA=",
+      "unitPrice": 750,
+      "unitsInStock": 123
+    },
+    {
+      "id": 41,
+      "category": "vegetable",
+      "productName": "Radish",
+      "image": "https://media.istockphoto.com/id/1364154885/photo/bunch-of-fresh-garden-radish-with-top-and-green-leaves-on-white-wooden-background-copy-space.jpg?s=170667a&w=0&k=20&c=XtO9auowkLC56zKU5tRm700YjutIrsHob_LHStp9AHA=",
+      "unitPrice": 100,
+      "unitsInStock": 85
+    },
+    {
+      "id": 42,
+      "category": "Fruit",
+      "productName": "Lemon",
+      "image": "https://images.unsplash.com/photo-1590502593747-42a996133562?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGVtb258ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 10,
+      "unitsInStock": 26
+    },
+    {
+      "id": 43,
+      "category": "Fruit",
+      "productName": "Strawberry",
+      "image": "https://media.istockphoto.com/id/477834644/photo/fresh-strawberries-background.jpg?s=612x612&w=is&k=20&c=r5oxKIt0CWOEgEPJNdPOFGA7WQjkshsogZZak4hjmq8=",
+      "unitPrice": 15,
+      "unitsInStock": 17
+    },
+    {
+      "id": 44,
+      "category": "Fruit",
+      "productName": "Lime",
+      "image": "https://media.istockphoto.com/id/1311344794/photo/bright-green-pile-heap-stock-of-lime-limes-at-farmers-market-grocery-fruit-stand.jpg?b=1&s=170667a&w=0&k=20&c=QJ5-CCDeQMLkVKi7oL3M_iC0t4U_lvhV7sKw_UjUmqA=",
+      "unitPrice": 10,
+      "unitsInStock": 27
+    },
+    {
+      "id": 45,
+      "category": "Fruit",
+      "productName": "Blackberry",
+      "image": "https://media.istockphoto.com/id/93293039/photo/a-group-of-ripe-blackberries-with-leaves.jpg?b=1&s=170667a&w=0&k=20&c=FdQEI-1JfRHXdAT5Fo4tyC-GJre7JMyH9bQcZdujWB4=",
+      "unitPrice": 10,
+      "unitsInStock": 5
+    },
+    {
+      "id": 46,
+      "category": "Grain",
+      "productName": "Teff",
+      "image": "https://media.istockphoto.com/id/540607622/photo/teff-scattered.jpg?b=1&s=170667a&w=0&k=20&c=WqwBC2tJW1fvqM4bZ9Jy9l2OSK19oIyvPaSBhdE0owg=",
+      "unitPrice": 2000,
+      "unitsInStock": 95
+    },
+    {
+      "id": 47,
+      "category": "Vegetable",
+      "productName": "Pomegranate",
+      "image": "https://media.istockphoto.com/id/1353005386/photo/a-close-up-view-of-a-basket-of-natural-and-healthy-pomegranates.jpg?b=1&s=170667a&w=0&k=20&c=gbCuIbSBo7uCTfLKyoqMnty-fGc979D9uWrdZnb9hhA=",
+      "unitPrice": 50,
+      "unitsInStock": 36
+    },
+    {
+      "id": 48,
+      "category": "Vegetable",
+      "productName": "Grapes",
+      "image": "https://media.istockphoto.com/id/157503759/photo/grapes.jpg?b=1&s=170667a&w=0&k=20&c=2p3695zDwYOJu_Fk3Z_L_KahZDlMdXjMwC8Gmf8s1fE=",
+      "unitPrice": 25,
+      "unitsInStock": 15
+    },
+    {
+      "id": 49,
+      "category": "Vegetable",
+      "productName": "Garlic",
+      "image": "https://media.istockphoto.com/id/185408964/photo/close-up-of-garlic-clove-on-white-background.jpg?b=1&s=170667a&w=0&k=20&c=bVQUfjaXsnO29geORMhiW2Pz1-lEl-jYZLBB6VRQcs4=",
+      "unitPrice": 15,
+      "unitsInStock": 10
+    },
+    {
+      "id": 50,
+      "category": "Fruit",
+      "productName": "Kiwi",
+      "image": "https://images.unsplash.com/photo-1585059895524-72359e06133a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8a2l3aXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1000&q=60",
+      "unitPrice": 200,
+      "unitsInStock": 65
+    }
+]
+}
