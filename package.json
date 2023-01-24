@@ -1,11 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "bootstrap": "^5.2.3",
-    "bootstrap-icons": "^1.10.3",
-    "popper.js": "^1.16.1",
-    "react-bootstrap": "^2.7.0"
-=======
   "name": "deliciousard",
   "version": "0.1.0",
   "private": true,
@@ -41,6 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> origin/main
   }
 }
