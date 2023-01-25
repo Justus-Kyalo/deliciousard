@@ -1,21 +1,22 @@
-import React from 'react';
+import React from "react";
+import './css/Navbar.css'
 
-
-function Navbar() {
-    return (    <>    
-        <nav className="navbar bg-light">
-            <div className="container-fluid">
-            <a href='##' className="navbar-brand">Deliciousard</a>
-            <form className="d-flex" role="search">
-            <input className="form-control me-2" type="search" placeholder="Search item.." aria-label="Search"/>
-            <button className="btn btn-outline-success" type="submit">Search</button>
-      <a href="##"> <i className="fas fa-shopping-cart"></i></a> 
-    </form>
-  </div>
-</nav>
-</>
-        
-    );
-}
+const Navbar = ({ setShow, size }) => {
+  return (
+    <nav>
+      <div className="nav_box">
+        <span className="my_shop" onClick={() => setShow(true)}>
+          Deliciousard
+        </span>
+        <div className="cart" onClick={() => setShow(false)}>
+          <span>
+            <i className="fas fa-cart-plus"></i>
+          </span>
+          <span>{size}</span>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
