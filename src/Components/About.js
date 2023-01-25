@@ -1,8 +1,9 @@
 import React from "react";
+import './css/app.css'
 
 function About() {
   return (
-    <div>
+    <div className="container" >
       <p>
         Welcome to our Delicioursard grocery store ! We are a family-owned and operated
         business that has been serving our community for over 50 years. Our

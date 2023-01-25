@@ -29,12 +29,12 @@ const Cart = ({ cart, setCart, handleChange }) => {
             <p>{item.productName}</p>
           </div>
           <div>
-            <button onClick={() => handleChange(item, 1)}>+</button>
-            <button>{item.amount}</button>
-            <button onClick={() => handleChange(item, -1)}>-</button>
+            {/* <button onClick={() => handleChange(item, 1)}>+</button> */}
+            {/* <button>{item.amount}</button> */}
+            {/* <button onClick={() => handleChange(item, -1)}>-</button> */}
           </div>
           <div>
-            <span>{item.unitPrice}</span>
+            <span>Kshs {item.unitPrice}</span>
             <button onClick={() => handleRemove(item.id)}>Remove</button>
           </div>
         </div>

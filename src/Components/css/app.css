@@ -11,3 +11,10 @@ main {
 footer {
     flex-shrink: 0;
 }
+.location {
+    border: 1px solid black;
+    margin-top: 50px;
+}
+p{
+    font-size: 130%;
+}
