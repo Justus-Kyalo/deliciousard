@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./Cart.css";
 
 const Cart = ({ cart, setCart, handleChange }) => {
   const [unitPrice, setPrice] = useState(0);
@@ -11,7 +12,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
 
   const handlePrice = () => {
     let ans = 0;
-    cart.map((item) => (ans += item.amount * item.unitPrice));
+    cart.map((item) => (ans += item.unitPrice));
     setPrice(ans);
   };
 

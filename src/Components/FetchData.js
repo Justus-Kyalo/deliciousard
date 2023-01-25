@@ -19,11 +19,11 @@ function FetchData({handleClick }) {
           <div className="card-body">
             <h5 className="card-title">{item.productName}</h5>
             <h5 className="card-title"> Ksh {item.unitPrice}</h5>
-            <h5 className="card-title"> Instock: {item.unitsInStock}</h5>
+            {/* <h5 className="card-title"> Instock: {item.unitsInStock}</h5> */}
 
 
-            
-              
+
+
             <button onClick={() => handleClick(item)} className=" btn btn-primary">Add to cart</button>
           </div>
         </div>

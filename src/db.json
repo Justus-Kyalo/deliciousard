@@ -2,10 +2,10 @@
   "products": [
    {
       "id": 1,
-      "category": "fruit",
+      "category": "Fruit",
       "productName": "Mango",
       "image": "https://media.istockphoto.com/id/168370138/photo/mango.jpg?b=1&s=170667a&w=0&k=20&c=xraujw-bJkOOBKXcqtNaU65kDaBK2szprAGynpRhSIg=",
-      "unitPrice": "10",
+      "unitPrice": 10,
       "unitsInStock": 53
     },
     {
