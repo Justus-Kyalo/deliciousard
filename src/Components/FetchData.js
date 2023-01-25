@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import "./css/Fetchdata.css"
 
-function FetchData() {
+function FetchData({handleClick }) {
   const [items, setItems] = useState([]);
   useEffect(() => {
     fetch("https://grocery-uo79.onrender.com/products")
@@ -24,7 +24,7 @@ function FetchData() {
 
             
               
-            <button  className=" btn btn-primary">Add to cart</button>
+            <button onClick={() => handleClick(item)} className=" btn btn-primary">Add to cart</button>
           </div>
         </div>
         </div>)
