@@ -5,6 +5,7 @@ import FetchData from "./Components/FetchData";
 import Cart from "./Components/Cart";
 import About from "./Components/About";
 import CustomerCare from "./Components/CustomerCare";
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
 
         <Route path="/customercare" element={< CustomerCare />} />
       </Routes>
+      <Footer />
     </div>
 
 
