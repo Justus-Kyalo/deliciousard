@@ -6,6 +6,7 @@ import Cart from "./Components/Cart";
 import About from "./Components/About";
 import CustomerCare from "./Components/CustomerCare";
 import Store from "./Components/Store";
+import Footer from "./Components/Footer.js"
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
         <Route path="/store" element={<Store />} />
 
       </Routes>
+      <Footer />
     </div>
 
 
