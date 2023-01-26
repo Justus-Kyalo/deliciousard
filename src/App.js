@@ -15,12 +15,13 @@ function App() {
     if (cart.indexOf(item) !== -1) return;
     setCart([...cart, item]);
   };
+  
 
   const handleChange = (item, d) => {
     const ind = cart.indexOf(item);
     const arr = [...cart];
+    if (arr[ind].amount === undefined || isNaN(arr[ind].amount)) arr[ind].amount = 0;
     arr[ind].amount += d;
-
     if (arr[ind].amount === 0) arr[ind].amount = 1;
     setCart([...arr]);
   };
@@ -32,11 +33,13 @@ function App() {
       <Routes>
         <Route path="/" element={<FetchData handleClick={handleClick} />} />
 
-        <Route path="/cart" element={<Cart setCart={setCart} cart={cart} handleChange={handleChange} />}/>
+        <Route path="/cart" element={<Cart setCart={setCart} cart={cart} handleChange={handleChange} />} />
 
         <Route path="/about" element={<About />} />
 
         <Route path="/customercare" element={< CustomerCare />} />
+
+        <Route path="/store" element={<Store />} />
 
       </Routes>
     </div>

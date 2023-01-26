@@ -13,12 +13,11 @@ const Navbar = ({ size }) => {
 
           <NavLink to="/customercare"><span className="others p-4">Customer Care</span></NavLink>
 
-          <NavLink to="/store" ><span className="others p-4">store</span></NavLink>
+          <NavLink to="/store" ><span className="others p-4">Store</span></NavLink>
         </div>
 
         <div className="cart">
-          <Link to="/cart"><span><i className="fas fa-cart-plus"></i></span></Link>
-          <span>{size}</span>
+          <Link to="/cart"><span><i className="fas fa-cart-plus"></i></span></Link><span>{size}</span>
         </div>
       </div>
     </nav>
