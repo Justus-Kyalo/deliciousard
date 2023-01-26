@@ -13,7 +13,7 @@ const Navbar = ({ size }) => {
 
           <NavLink to="/customercare"><span className="others p-4">Customer Care</span></NavLink>
 
-          <span className="others p-4">store</span>
+          <NavLink to="/store" ><span className="others p-4">store</span></NavLink>
         </div>
 
         <div className="cart">

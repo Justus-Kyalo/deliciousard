@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "./css/Fetchdata.css"
+import Store from "./Store";
+import {Routes, Route} from 'react-router-dom';
 
 function FetchData({handleClick }) {
   const [items, setItems] = useState([]);
@@ -10,8 +12,19 @@ function FetchData({handleClick }) {
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
+
+  function handleAddItem(formData) {
+    setItems([...items, formData])
+  }
+
+
   return (
     <div>
+
+      <Routes>
+         <Route path="/store" element={<Store  onAddItem={handleAddItem} />} />
+      </Routes>
+
 
       {items.map((item)=>{
         return(

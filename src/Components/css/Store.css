@@ -1,0 +1,21 @@
+.additem{
+    display: block;
+    margin-top: 20px;
+    margin-left: 43%;
+    width: 20vw;
+    box-shadow: 0 2px 2px black;
+    text-align: center;
+}
+.additem:active{
+    background: rgb(230, 174, 174);
+}
+#additem{
+    border: 1px solid black;
+    margin-top: 2px;
+}
+#inputbutton{
+    width: 20vw;
+    margin-left: 43% ;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
