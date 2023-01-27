@@ -18,7 +18,7 @@ function Footer() {
                         </li><li>
                             <span><a href='https://github.com/volta1234' target='_blank'>Calvince Ogwel</a></span>
                         </li><li>
-                            <span><a href='https://github.com/kefahwambai' target='_blank'>Kefah Wambai</a></span>
+                            <span><a  href='https://github.com/kefahwambai' target='_blank'>Kefah Wambai</a></span>
                         </li>
                         
                     </ul>
