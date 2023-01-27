@@ -1,3 +1,4 @@
+![screenshort](https://github.com/RemmyKyalo/deliciousard/blob/main/images/app.png)
 # Deliciousard App
 - Welcome to our online grocery shopping app! With this app, you can easily purchase your desired groceries from the comfort of your home.
 
